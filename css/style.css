@@ -1,0 +1,234 @@
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+            /*### Neutral*/
+
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+html{
+    background-color: var(--VeryLightGray);
+}
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6rem;
+}
+header h1{
+    font-size: 30px;
+    font-weight: lighter;
+    color: var(--VeryDarkBlue);
+    margin-inline: 0.8rem;
+}
+header h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-inline: 0.8rem;
+    color: var(--VeryDarkBlue);
+}
+header p{
+    font-size: 19px;
+    margin-inline: 0.8rem;
+    color: var(--GrayishBlue);
+    line-height: 1.8rem;
+}
+.caja1{
+    background-color: #fff;
+    margin-inline: 2rem;
+    padding-bottom: 2rem;
+    border-top: 3px solid var(--Cyan);
+    border-radius: 0.5rem;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.75) 7px 32px -10px ;
+}
+.caja1 h2{
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--VeryDarkBlue);
+    
+}
+.caja1 p{
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+    color: var(--GrayishBlue);
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+.imagen1{
+    background-image: url(../images/icon-supervisor.svg);
+    background-size: cover;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 3rem;
+    margin-left: 12rem;
+}
+.caja2{
+    background-color: #fff;
+    margin-inline: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 3px solid var(--Red);
+    border-radius: 0.5rem;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.75) 7px 32px -10px ;
+}
+.caja2 h2{
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--VeryDarkBlue);
+    
+}
+.caja2 p{
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+    color: var(--GrayishBlue);
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+.imagen2{
+    background-image: url(../images/icon-team-builder.svg);
+    background-size: cover;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 3rem;
+    margin-left: 12rem;
+}
+.caja3{
+    background-color: #fff;
+    margin-inline: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 3px solid var(--Orange);
+    border-radius: 0.5rem;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.75) 7px 32px -10px ;
+}
+.caja3 h2{
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--VeryDarkBlue);
+}
+.caja3 p{
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+    color: var(--GrayishBlue);
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+.imagen3{
+    background-image: url(../images/icon-karma.svg);
+    background-size: cover;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 3rem;
+    margin-left: 12rem;
+}
+.caja4{
+    background-color: #fff;
+    margin-inline: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 3px solid var(--Blue);
+    border-radius: 0.5rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.75) 7px 32px -10px ;
+}
+.caja4 h2{
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--VeryDarkBlue);
+    
+}
+.caja4 p{
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+    color: var(--GrayishBlue);
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+.imagen4{
+    background-image: url(../images/icon-calculator.svg);
+    background-size: cover;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 3rem;
+    margin-left: 12rem;
+}
+@media (min-width:1440px){
+    header h1{
+        font-size: 45px; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        color: var(--VeryDarkBlue);
+    }
+    header h2{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: var(--VeryDarkBlue);
+    }
+    header p{
+        font-size: 20px;
+        margin-inline: 25rem;
+    }
+    .cajas{
+        display: flex;
+        flex-direction: row;
+    }
+    .cajasdobles{
+        display: flex;
+        flex-direction: column;
+    }
+    .caja1{
+        margin-block: 11rem;
+        width: 30rem;
+        box-shadow: rgba(0, 0, 0, 0.75) 7px 32px -10px ;
+    }
+    .caja1 p{
+        margin-right: 4rem;
+    }
+    .imagen1{
+        margin-left: 20rem;
+    }
+    .caja2{
+        width: 28rem;
+        box-shadow: rgba(0, 0, 0, 0.75) 7px 32px -10px ;
+    }
+    .caja2 p{
+        margin-right: 5rem;
+    }
+    .imagen2{
+        margin-left: 20rem;
+    }
+    .caja3{
+        width: 28rem;
+        box-shadow: rgba(0, 0, 0, 0.75) 7px 32px -10px ;
+    }
+    .caja3 p{
+        margin-right: 5rem;
+    }
+    .imagen3{
+        margin-left: 20rem;
+    }
+    .caja4{
+        margin-block: 11rem;
+        width: 30rem;
+        box-shadow: rgba(0, 0, 0, 0.75) 7px 32px -10px ;
+    }
+    .caja4 p{
+        margin-right: 4rem;
+    }
+    .imagen4{
+        margin-left: 20rem;
+    }
+
+}
+
+
+
